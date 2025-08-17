@@ -38,7 +38,7 @@ variable "instance_ami" {
 variable "instance_name" {
     description = "name tag for ec2 instance"
     type        = string
-    default     = "web-server"
+    default     = "app-server"
 }
 
 #Environment Variable
